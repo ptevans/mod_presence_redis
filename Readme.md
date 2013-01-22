@@ -1,4 +1,3 @@
-## General
 mod_presence_redis is an Ejabberd module that exports presence data to Redis. When a user logs into the server, their username is added to a set in Redis. When they logout it is removed. Additionally login and logout events are published to a Redis pubsub channel on a per domain basis.
 
 ## Usage Example
